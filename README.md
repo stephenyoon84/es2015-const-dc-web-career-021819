@@ -27,6 +27,24 @@ console.log(AGE_OF_MAJORITY); // 18
 ```  
 You can see that all attempts to set a new value for our constant do not work. It will always hold the first value when we declared it using the const keyword.
 
+In fact, trying to redeclare a constant within the same code block will throw the following error:  
+```javascript
+const AGE_OF_MAJORITY = 18;
+const AGE_OF_MAJORITY = 21; // Uncaught TypeError: Identifier 'AGE_OF_MAJORITY' has already been declared.
+```
+
+Additonally it is worth noting that constants must be assigned a value when they are declared otherwise they will forever hodl the value of undefined. Example:  
+```javascript
+const MIN_HEIGHT;
+MIN_HEIGHT = 1;
+console.log(MIN_HEIGHT); // undefined
+```
+So you see, we must always assign a value the first time we declare a constant:  
+```javascript
+const MIN_HEIGHT = 1;
+console.log(MIN_HEIGHT); // 1
+```
+
 ### Scope
 
 Variables declared using the const keyword carry the same block scope as the let keyword. This means it is accessable only between the `{}` curley braces that it is defined within. See the lesson on Let keyword for more details on declaration scope.
