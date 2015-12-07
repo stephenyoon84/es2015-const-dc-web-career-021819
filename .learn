@@ -1,0 +1,12 @@
+languages:
+ - javascript
+tags: 
+ - es2015
+ - es6
+ - const
+ - constant
+ - var
+ - scope
+type:
+ - readme
+resources: 1
