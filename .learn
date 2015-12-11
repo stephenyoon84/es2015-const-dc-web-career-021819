@@ -7,6 +7,8 @@ tags:
  - constant
  - var
  - scope
+prerequisites:
+ - es5
 type:
  - readme
 resources: 1
