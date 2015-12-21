@@ -11,11 +11,9 @@ In this lesson, you will get to know ES2015's const keyword.
 3. Understand the differences between declaring constants and declaring using let and var.
 4. Understand naming conventions for constants.
 
-## ~ ?min
-
 <!-- iframe of video lecture goes here -->
 
-*The code examples from this lesson can be run by pasting them into [Babel's online REPL](https://babeljs.io/repl/)*
+*Note: The code examples from this lesson can be run by pasting them into [Babel's online REPL](https://babeljs.io/repl/)*
 
 ## Declaring Contants
 
@@ -94,3 +92,4 @@ This new code is written so that it is clear that we are checking if the age pas
 ## Resources
 
 - [MDN - JavaScript - Const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
+- [ES5 to ES6 Feature Comparison](http://es6-features.org/)
