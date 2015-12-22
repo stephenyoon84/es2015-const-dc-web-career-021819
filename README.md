@@ -83,11 +83,11 @@ This new code is written so that it is clear that we are checking if the age pas
 
 ## Summary
 
-1. You can create constants like this `const MAX_AGE = 18;`.
-2. You should use constants to represent variables that should be read only.
-3. It is a best practice to uppcase your constant names like this `const PI = 3.14;`.
-4. A constants value can not be changed after it has been declared.
-5. Constants carry block scope the same as the let keyword.
+- You can create constants like this `const MAX_AGE = 18;`.
+- You should use constants to represent variables that should be read only.
+- It is a best practice to uppcase your constant names like this `const PI = 3.14;`.
+- A constants value can not be changed after it has been declared.
+- Constants carry block scope the same as the let keyword.
 
 ## Resources
 
