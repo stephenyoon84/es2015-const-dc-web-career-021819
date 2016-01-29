@@ -93,3 +93,5 @@ This new code is written so that it is clear that we are checking if the age pas
 
 - [MDN - JavaScript - Const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
 - [ES5 to ES6 Feature Comparison](http://es6-features.org/)
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/es2015-const' title='Const'>Const</a> on Learn.co and start learning to code for free.</p>
